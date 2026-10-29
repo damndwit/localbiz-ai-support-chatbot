@@ -1,0 +1,14 @@
+{
+  "business_name": "Maple Street Café",
+  "tagline": "Coffee, pastries & good company · Fictional business",
+  "welcome_message": "Welcome to Maple Street Café! ☕ I can help with our hours, menu, Wi-Fi, reservations and more. What would you like to know?",
+  "contact_note": "This café is fictional. All policies and information shown here are sample data.",
+  "quick_questions": [
+    "Are you open on Sundays?",
+    "Do you have vegan options?",
+    "Can I book a table?",
+    "Do you have free Wi-Fi?",
+    "Where are you located?",
+    "What is on your menu?"
+  ]
+}
