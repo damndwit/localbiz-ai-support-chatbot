@@ -2,7 +2,13 @@
 
 A customizable customer-service chatbot for local businesses, built using **Python, Streamlit, and scikit-learn**. The example business is a fictional café, but the business name, greeting, and approved FAQ answers are easy to replace.
 
-**Status:** Initial prototype published. Local testing and live deployment still need verification.
+**Status:** Prototype deployed to Streamlit Community Cloud. The developer confirmed it runs locally; automated tests and the public deployment still require a documented validation pass.
+
+### Try the demo
+
+**[Open the live chatbot](https://localbiz-support-demo-dwit.streamlit.app/)** · [Source code](https://github.com/damndwit/localbiz-ai-support-chatbot)
+
+This public demo uses a **fictional café** and example business policies. No customer records or real business integrations are involved.
 
 ## Features
 
@@ -80,10 +86,11 @@ I reviewed these MIT-licensed projects for design inspiration, but implemented t
 
 ## Next steps
 
-- [ ] Run the app locally and confirm key questions work
+- [x] Run the app locally and confirm key questions work (developer confirmed)
 - [ ] Run the unit tests
 - [ ] Add screenshots from the real app
-- [ ] Deploy a public demo using Streamlit Community Cloud
+- [x] Deploy a demo URL on Streamlit Community Cloud ([open app](https://localbiz-support-demo-dwit.streamlit.app/))
+- [ ] Verify the live demo interactions and record the test results
 - [ ] Extend to multiple businesses and consider optional local LLM integration
 
 **Created by [Dwit Patel](https://github.com/damndwit).**
