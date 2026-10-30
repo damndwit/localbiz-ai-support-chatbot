@@ -2,13 +2,21 @@
 
 A customizable customer-service chatbot for local businesses, built using **Python, Streamlit, and scikit-learn**. The example business is a fictional café, but the business name, greeting, and approved FAQ answers are easy to replace.
 
-**Status:** Prototype deployed to Streamlit Community Cloud. The developer confirmed it runs locally; automated tests and the public deployment still require a documented validation pass.
+**Status:** Public demo deployed. The owner confirmed successful local operation and five live checks: page loading, opening-hours response, vegan-options response, unknown-question fallback, and mobile presentation. Automated test execution remains unverified.
 
 ### Try the demo
 
 **[Open the live chatbot](https://localbiz-support-demo-dwit.streamlit.app/)** · [Source code](https://github.com/damndwit/localbiz-ai-support-chatbot)
 
 This public demo uses a **fictional café** and example business policies. No customer records or real business integrations are involved.
+
+[**Live demo**](https://localbiz-support-demo-dwit.streamlit.app/) · [**Source**](https://github.com/damndwit/localbiz-ai-support-chatbot) · [**Automated test workflow**](https://github.com/damndwit/localbiz-ai-support-chatbot/actions/workflows/tests.yml)
+
+## Screenshots
+
+Screenshots are being collected from the deployed application. For a real screenshot, open the live demo, ask about Sunday hours, and use **Win + Shift + S** on Windows to capture the visible conversation. Save it as `screenshots/chat-demo.png` and upload it through GitHub's **Add file → Upload files**. A second screenshot showing the fallback and one on mobile are useful.
+
+Do not upload screenshots containing private or real customer data. The demo uses a fictional café.
 
 ## Features
 
@@ -77,6 +85,13 @@ LICENSE             MIT license
 
 All sample data describes a fictional café. This prototype cannot place orders, take reservations, access accounts, issue refunds, or communicate with an actual business. It is not production-ready: it has no authentication, staff dashboard, or persistent customer ticket management. For commercial deployment, business owners must approve their FAQ content and review hosting, security, privacy, and a human escalation path. Never add passwords, real customer data, or API keys to this repository.
 
+## Quality checks
+
+- `tests/test_bot.py` tests normalization, matching, fallbacks, CSV validation, and threshold handling.
+- `tests/test_demo.py` checks all published FAQ questions, alternative phrasings, popular questions, and unknown-message behavior.
+- `.github/workflows/tests.yml` is configured to run both test files when code is pushed or a pull request is opened. **Do not assume tests have passed until the Actions page shows a green check.**
+- This is **NLP-based FAQ retrieval**, not a generative LLM service or a production customer service platform.
+
 ## Learning references
 
 I reviewed these MIT-licensed projects for design inspiration, but implemented this chatbot separately:
@@ -87,10 +102,10 @@ I reviewed these MIT-licensed projects for design inspiration, but implemented t
 ## Next steps
 
 - [x] Run the app locally and confirm key questions work (developer confirmed)
-- [ ] Run the unit tests
-- [ ] Add screenshots from the real app
+- [ ] Confirm the automated unit and integration tests pass on GitHub Actions
+- [ ] Add genuine screenshots from the deployed app
 - [x] Deploy a demo URL on Streamlit Community Cloud ([open app](https://localbiz-support-demo-dwit.streamlit.app/))
-- [ ] Verify the live demo interactions and record the test results
+- [x] Confirm five live demo checks (owner-reported, October 29, 2026)
 - [ ] Extend to multiple businesses and consider optional local LLM integration
 
 **Created by [Dwit Patel](https://github.com/damndwit).**
