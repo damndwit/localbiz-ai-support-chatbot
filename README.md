@@ -6,11 +6,11 @@ A customizable customer-service chatbot for local businesses, built using **Pyth
 
 ### Try the demo
 
-**[Open the live chatbot](https://localbiz-support-demo-dwit.streamlit.app/)** · [Source code](https://github.com/damndwit/localbiz-ai-support-chatbot)
+**[Open the live chatbot](https://localbiz-support-demo-dwit.streamlit.app/)** · [Source code](https://github.com/dwitdev/localbiz-ai-support-chatbot)
 
 This public demo uses a **fictional café** and example business policies. No customer records or real business integrations are involved.
 
-[**Live demo**](https://localbiz-support-demo-dwit.streamlit.app/) · [**Source**](https://github.com/damndwit/localbiz-ai-support-chatbot) · [**Automated test workflow**](https://github.com/damndwit/localbiz-ai-support-chatbot/actions/workflows/tests.yml)
+[**Live demo**](https://localbiz-support-demo-dwit.streamlit.app/) · [**Source**](https://github.com/dwitdev/localbiz-ai-support-chatbot) · [**Automated test workflow**](https://github.com/dwitdev/localbiz-ai-support-chatbot/actions/workflows/tests.yml)
 
 ## Screenshots
 
@@ -35,7 +35,7 @@ Do not upload screenshots containing private or real customer data. The demo use
 2. Open a terminal in the downloaded project folder (download as ZIP from GitHub, or clone it):
 
 ```bash
-git clone https://github.com/damndwit/localbiz-ai-support-chatbot.git
+git clone https://github.com/dwitdev/localbiz-ai-support-chatbot.git
 cd localbiz-ai-support-chatbot
 ```
 
@@ -108,4 +108,4 @@ I reviewed these MIT-licensed projects for design inspiration, but implemented t
 - [x] Confirm five live demo checks (owner-reported, October 29, 2026)
 - [ ] Extend to multiple businesses and consider optional local LLM integration
 
-**Created by [Dwit Patel](https://github.com/damndwit).**
+**Created by [Dwit Patel](https://github.com/dwitdev).**
