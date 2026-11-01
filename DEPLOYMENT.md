@@ -6,7 +6,7 @@ The demo can be hosted for free using [Streamlit Community Cloud](https://share.
 
 | Setting | Value |
 | --- | --- |
-| Repository | `damndwit/localbiz-ai-support-chatbot` |
+| Repository | `dwitdev/localbiz-ai-support-chatbot` |
 | Branch | `main` |
 | Main file path | `app.py` |
 | Python version | `3.12` (current Community Cloud default) |
@@ -19,7 +19,7 @@ The demo can be hosted for free using [Streamlit Community Cloud](https://share.
 2. If prompted, authorize Streamlit to access your **public** GitHub repositories.
 3. Click **Create app** and then **Yup, I have an app**.
 4. Choose the repository, branch, and main file path from the table above. Alternatively, paste this URL when offered:  
-   `https://github.com/damndwit/localbiz-ai-support-chatbot/blob/main/app.py`
+   `https://github.com/dwitdev/localbiz-ai-support-chatbot/blob/main/app.py`
 5. Optionally select a custom subdomain if available. Under **Advanced settings**, use Python 3.12 and leave secrets blank.
 6. Click **Deploy**.
 7. Test the live URL with:
